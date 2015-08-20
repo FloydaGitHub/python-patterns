@@ -9,7 +9,7 @@ pyhton-设计模式
 已有的模式:
 
 | 模式 | 说明 |
-|:-------:| ----------- |
+| -------| ----------- |
 | [三层架构](3-tier.py) | 数据<->业务逻辑<->描述 分离 (严格的关系) |
 | [abstract_factory](abstract_factory.py) | use a generic function with specific factories |
 | [adapter](adapter.py) | adapt one interface to another using a whitelist |
@@ -27,7 +27,7 @@ pyhton-设计模式
 | [graph_search](graph_search.py) | (graphing algorithms, not design patterns) |
 | [mediator](mediator.py) | an object that knows how to connect other objects and act as a proxy |
 | [memento](memento.py) | generate an opaque token that can be used to go back to a previous state |
-| [mvc](mvc.py) | model<->view<->controller (non-strict relationships) |
+| [mvc](mvc.py) | 模型<->视图<->控制器 (非严格的关系) |
 | [observer](observer.py) | provide a callback for notification of events/changes to data |
 | [pool](pool.py) | preinstantiate and maintain a group of instances of the same type |
 | [prototype](prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
