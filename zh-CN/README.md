@@ -1,19 +1,16 @@
-python-patterns
+pyhton-设计模式
 ===============
 
-[中文翻译](./zh-CN/README.md)
+收集用Pyhton写的设计模式和风格.
 
-A collection of design patterns and idioms in Python.
+当有一个新的成品时, 更新这个文件并执行`append_output.sh` 
+(举个栗子: ./append_output.sh borg.py), 以保证底部的输入结果是最新的.
 
-When an implementation is added or modified, be sure to update this file and
-rerun `append_output.sh` (eg. ./append_output.sh borg.py) to keep the output
-comments at the bottom up to date.
+已有的模式:
 
-Current Patterns:
-
-| Pattern | Description |
+| 模式 | 说明 |
 |:-------:| ----------- |
-| [3-tier](3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
+| [三层架构](3-tier.py) | 数据<->业务逻辑<->描述 分离 (严格的关系) |
 | [abstract_factory](abstract_factory.py) | use a generic function with specific factories |
 | [adapter](adapter.py) | adapt one interface to another using a whitelist |
 | [borg](borg.py) | a singleton with shared-state among instances |
