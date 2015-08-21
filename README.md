@@ -1,7 +1,7 @@
 python-patterns
 ===============
 
-[中文翻译](./zh-CN/README.md)
+[中文](./zh-CN/README.md)
 
 A collection of design patterns and idioms in Python.
 
