@@ -13,7 +13,9 @@ pyhton-设计模式
 | [三层架构](3-tier.py) | 数据<->业务逻辑<->描述 分离 (严格的关系) |
 | [mvc](mvc.py) | 模型<->视图<->控制器 (非严格的关系) |
 | [borg](borg.py) | 在实例中共享状态的一种单例模式(id不一样, state一样) |
-| [abstract_factory](abstract_factory.py) | use a generic function with specific factories |
+| [abstract_factory](abstract_factory.lua) | 用一个通用的方法, 根据特定的工厂类来创建一个类的实例 |
+| [factory_method](factory_method.lua) | 根据专门的函数或者方法, 创建一个类的实例 |
+
 | [adapter](adapter.py) | adapt one interface to another using a whitelist |
 | [bridge](bridge.py) | a client-provider middleman to soften interface changes |
 | [builder](builder.py) | call many little discrete methods rather than having a huge number of constructor parameters |
@@ -23,7 +25,6 @@ pyhton-设计模式
 | [composite](composite.py) | encapsulate and provide access to a number of different objects |
 | [decorator](decorator.py) | wrap functionality with other functionality in order to affect outputs |
 | [facade](facade.py) | use one class as an API to a number of others |
-| [factory_method](factory_method.py) | delegate a specialized function/method to create instances |
 | [flyweight](flyweight.py) | transparently reuse existing instances of objects with similar/identical state |
 | [graph_search](graph_search.py) | (graphing algorithms, not design patterns) |
 | [mediator](mediator.py) | an object that knows how to connect other objects and act as a proxy |
