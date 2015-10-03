@@ -13,9 +13,9 @@ pyhton-设计模式
 | [三层架构](3-tier.py) | 数据<->业务逻辑<->描述 分离 (严格的关系) |
 | [mvc](mvc.py) | 模型<->视图<->控制器 (非严格的关系) |
 | [borg](borg.py) | 在实例中共享状态的一种单例模式(id不一样, state一样) |
-| [abstract_factory](abstract_factory.lua) | 用一个通用的方法, 根据特定的工厂类来创建一个类的实例 |
-| [factory_method](factory_method.lua) | 根据专门的函数或者方法, 创建一个类的实例 |
-
+| [抽象工厂模式](abstract_factory.lua) | 用一个通用的方法, 根据特定的工厂类来创建一个类的实例 |
+| [工厂模式](factory_method.lua) | 根据专门的函数或者方法, 创建一个类的实例 |
+| [原型](prototype.py) | 用一个工厂类, 通过复制原型, 得到一个新的实例(如果实例存在的话) |
 | [adapter](adapter.py) | adapt one interface to another using a whitelist |
 | [bridge](bridge.py) | a client-provider middleman to soften interface changes |
 | [builder](builder.py) | call many little discrete methods rather than having a huge number of constructor parameters |
@@ -31,7 +31,6 @@ pyhton-设计模式
 | [memento](memento.py) | generate an opaque token that can be used to go back to a previous state |
 | [observer](observer.py) | provide a callback for notification of events/changes to data |
 | [pool](pool.py) | preinstantiate and maintain a group of instances of the same type |
-| [prototype](prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
 | [proxy](proxy.py) | an object funnels operations to something else |
 | [publish_subscribe](publish_subscribe.py) | a source syndicates events/data to 0+ registered listeners |
 | [state](state.py) | logic is org'd into a discrete number of potential states and the next state that can be transitioned to |
